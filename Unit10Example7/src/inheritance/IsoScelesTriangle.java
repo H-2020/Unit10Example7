@@ -18,6 +18,16 @@ public class IsoScelesTriangle extends Triangle{
     public IsoScelesTriangle(Triangle triangle) {
         super(triangle);
     }
+    //METHOD_OVERRIDE_FROM_TRIANGLE
+    public void setWidth(int width) {
+        super.setWidth(width);
+    }
+
+    //METHOD_OVERRIDE_FROM_TRIANGLE
+    public void setHeight(int height) {
+        super.setHeight(height);
+    }
+
     public  int getCount() {
         return count++;
     }
