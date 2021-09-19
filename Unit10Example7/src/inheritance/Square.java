@@ -27,11 +27,11 @@ public class Square extends Rectangle{
     public void setSide(int side) {
         this.side = side;
     }
-    
+    //METHOD_OVERRIDE_FROM_RECTANGLE
     public void setWidth(int width){
         super.setWidth(width);
     }
-    
+    //METHOD_OVERRIDE_FROM_RECTANGLE
     public void setHeight(int height){
         super.setHeight(height);
     }
