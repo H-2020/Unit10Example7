@@ -27,6 +27,15 @@ public class Square extends Rectangle{
     public void setSide(int side) {
         this.side = side;
     }
+    
+    public void setWidth(int width){
+        super.setWidth(width);
+    }
+    
+    public void setHeight(int height){
+        super.setHeight(height);
+    }
+    
     public  int getCount() {
         return count++;
     }
