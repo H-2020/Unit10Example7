@@ -1,24 +1,29 @@
 package inheritance;
 
 public class Circle extends Shape{
-
-    private static int count;
+    
+    public static final int ANGLES=0;
+    private static int circleCounter;
     private int radius;
     private int diameter;
 
     public Circle() {
+        circleCounter++;
     }
 
     public Circle(int radius) {
         this.radius = radius;
+         circleCounter++;
     }
 
     public Circle(int x, int y, int radius) {
-        super(x, y);
+        super.setPosition(x,y);
         this.radius = radius;
+         circleCounter++;
     }
 
     public Circle(Circle circle){
+        this(circle.getRadius
 
     }
 
