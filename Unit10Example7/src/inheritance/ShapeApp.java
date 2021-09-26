@@ -10,15 +10,15 @@ public class ShapeApp {
         IsoScelesTriangle isoScelesTriangle=new IsoScelesTriangle(20,20,10);
 
         System.out.println(rectangle1.getArea());
-        System.out.println("Rectangle:"+rectangle1.getCount());
+        System.out.println("Rectangle:"+Rectangle.getCount());
         System.out.println(circle1.getPerimeter());
-        System.out.println("Circle:"+circle1.getCount());
+        System.out.println("Circle:"+Circle.getCount());
         System.out.println(triangle1.getArea());
-        System.out.println("triangle"+triangle1.getCount());
+        System.out.println("triangle"+Triangle.getCount());
         System.out.println(square1.getPerimeter());
-        System.out.println("square:" +square1.getCount());
+        System.out.println("square:" +Square.getCount());
         System.out.println(isoScelesTriangle.getArea());
-        System.out.println("isoScelesTriangle"+isoScelesTriangle.getCount());
+        System.out.println("isoScelesTriangle"+IsoScelesTriangle.getCount());
         System.out.println("Sum of the shapes:"+Shape.getCount());
     }
 }
